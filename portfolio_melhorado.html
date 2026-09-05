@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Gabriela Oliveira — Web Designer e Desenvolvedora Front-End.">
+  <title>Gabriela Oliveira | Web Designer & Front-End</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style_melhorado.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav-wrapper">
+      <a class="logo" href="#inicio" aria-label="Gabriela Oliveira - início">GO<span>.</span></a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Ativar modo escuro">
+        ◐
+      </button>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">WEB DESIGN • FRONT-END</p>
+          <h1>Transformo ideias em <span>experiências digitais.</span></h1>
+          <p class="hero-description">
+            Sou Gabriela Oliveira, Web Designer e Desenvolvedora Front-End iniciante,
+            apaixonada por interfaces limpas, responsivas e funcionais.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos">Ver projetos</a>
+            <a class="button button-secondary" href="#contato">Vamos conversar</a>
+          </div>
+
+          <div class="hero-tags" aria-label="Tecnologias">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>UX/UI</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <img src="src/minhaimagem.png" alt="Gabriela Oliveira" class="hero-photo">
+          </div>
+          <div class="floating-card">
+            <strong>06+</strong>
+            <span>projetos no portfólio</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="container about-grid">
+        <div class="section-heading">
+          <p class="eyebrow">SOBRE MIM</p>
+          <h2>Design com propósito e atenção aos detalhes.</h2>
+        </div>
+
+        <div class="about-content">
+          <img src="src/IMG_20260703_221504.jpg" class="profile-photo" alt="Gabriela Oliveira">
+          <div>
+            <p>
+              Sou Web Designer e Desenvolvedora Front-End iniciante, apaixonada por
+              design limpo, usabilidade e interfaces que realmente funcionam.
+            </p>
+            <p>
+              Atualmente estudo e desenvolvo projetos com HTML, CSS, JavaScript e
+              princípios de UX/UI, sempre buscando evoluir e entregar experiências
+              cada vez melhores.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="habilidades">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow">MINHAS HABILIDADES</p>
+          <h2>Ferramentas que estou desenvolvendo</h2>
+          <p>Conhecimentos aplicados aos meus projetos de front-end e web design.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-number">01</span>
+            <h3>HTML5</h3>
+            <p>Estrutura semântica, formulários, acessibilidade básica e organização de conteúdo para a web.</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">02</span>
+            <h3>CSS3</h3>
+            <p>Layouts responsivos com Flexbox e Grid, animações, transições e adaptação para diferentes telas.</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">03</span>
+            <h3>JavaScript</h3>
+            <p>Interações, eventos, manipulação do DOM e recursos dinâmicos para melhorar a experiência.</p>
+          </article>
+
+          <article class="skill-card">
+            <span class="skill-number">04</span>
+            <h3>UX/UI</h3>
+            <p>Foco em hierarquia visual, clareza, usabilidade e interfaces simples e agradáveis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projetos">
+      <div class="container">
+        <div class="section-heading projects-heading">
+          <div>
+            <p class="eyebrow">PORTFÓLIO</p>
+            <h2>Projetos selecionados</h2>
+          </div>
+          <p>Uma seleção dos projetos que representam minha evolução em front-end.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="src/Gallery_1770835090749.png" alt="Projeto modal de carros">
+            <div class="project-content">
+              <span>JavaScript</span>
+              <h3>Modal de carros</h3>
+              <p>Projeto com cards e interações em JavaScript para tornar a navegação mais dinâmica.</p>
+              <a href="#" class="project-link">Ver projeto →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="src/212792356-11407a22-7e9b-4699-93a1-f3133e4e27be.jpeg" alt="Projeto inspirado na interface da Netflix">
+            <div class="project-content">
+              <span>HTML • CSS • Bootstrap</span>
+              <h3>Landing page de streaming</h3>
+              <p>Interface inspirada em plataformas de streaming, trabalhando catálogo e responsividade.</p>
+              <a href="#" class="project-link">Ver projeto →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="src/preview.png" alt="Projeto NLW Esports Explorer">
+            <div class="project-content">
+              <span>HTML • CSS</span>
+              <h3>NLW Esports Explorer</h3>
+              <p>Página criada durante o evento Next Level Week, com jogos, streamers e canais.</p>
+              <a href="https://gabi-oli.github.io/nlw-esports-explorer/" target="_blank" rel="noopener noreferrer" class="project-link">Ver projeto →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="src/Imagens/Preview.png" alt="Projeto Travel X">
+            <div class="project-content">
+              <span>HTML5 • CSS3</span>
+              <h3>Travel X</h3>
+              <p>Landing page responsiva para uma agência de viagens fictícia.</p>
+              <a href="https://gabi-oli.github.io/nlw-esports-explorer/" target="_blank" rel="noopener noreferrer" class="project-link">Ver projeto →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="src/Imagens/Gym.png" alt="Projeto de academia">
+            <div class="project-content">
+              <span>HTML • CSS • Formulário</span>
+              <h3>Landing page de academia</h3>
+              <p>Página com formulário de cadastro, planos e benefícios para usuários.</p>
+              <a href="https://gabi-oli.github.io/Formul-rio---Gym/" target="_blank" rel="noopener noreferrer" class="project-link">Ver projeto →</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="src/preview2.jpg.png" alt="Projeto de e-commerce">
+            <div class="project-content">
+              <span>E-commerce</span>
+              <h3>Página de e-commerce</h3>
+              <p>Projeto de interface para loja virtual, com foco em organização visual e experiência.</p>
+              <a href="https://gabi-oli.github.io/Site-de-E-commerce-/" target="_blank" rel="noopener noreferrer" class="project-link">Ver projeto →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section differential">
+      <div class="container differential-box">
+        <div>
+          <p class="eyebrow">MEU DIFERENCIAL</p>
+          <h2>O que posso levar para o seu projeto?</h2>
+        </div>
+
+        <ul>
+          <li>Design limpo e organizado</li>
+          <li>Comunicação clara</li>
+          <li>Compromisso com prazos</li>
+          <li>Busca constante por evolução</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section contact" id="contato">
+      <div class="container contact-box">
+        <p class="eyebrow">CONTATO</p>
+        <h2>Vamos criar algo juntos?</h2>
+        <p>
+          Está procurando uma profissional para colaborar em um projeto?
+          Entre em contato e vamos conversar.
+        </p>
+
+        <div class="socials">
+          <a href="https://br.linkedin.com/in/gabriela-oliveira-b314ba21" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/Gabi-Oli" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="mailto:gabioli_girl@outlook.com">E-mail</a>
+          <a href="https://wa.me/qr/G7TUWSSTXCL7K1" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>Gabriela Oliveira © 2026</p>
+      <a href="#inicio">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    const themeToggle = document.getElementById("themeToggle");
+
+    themeToggle.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+      themeToggle.textContent = document.body.classList.contains("dark-mode") ? "☀" : "◐";
+    });
+  </script>
+</body>
+</html>
