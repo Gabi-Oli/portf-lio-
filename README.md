@@ -2,6 +2,8 @@
 
 Portfólio pessoal desenvolvido para apresentar meus projetos de **Web Design e Front-End**, destacando habilidades, evolução e formas de contato.
 
+https://gabi-oli.github.io/portf-lio-/
+
 ## ✨ Sobre o projeto
 
 Este site foi criado com uma proposta visual **elegante, minimalista e responsiva**, buscando transmitir profissionalismo sem perder a identidade pessoal.
